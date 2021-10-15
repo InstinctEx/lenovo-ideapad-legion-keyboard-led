@@ -13,25 +13,25 @@ This util allows to drive RGB keyboard light on Lenovo Ideapad or Legion 5 Pro 2
 
 ### Regular python
 ```
-git clone https://github.com/imShara/l5p-kbl
-cd l5p-kbl
+git clone https://github.com/InstinctEx/lenovo-ideapad-legion-keyboard-led
+cd lenovo-ideapad-legion-keyboard-led
 python -m venv env
 source ./env/bin/activate
 pip install -r requirements.txt
-python l5p-kbl.py --help
+python lenovolight.py --help
 ```
 
 ### Archlinux
 ```
 sudo pacman -Sy python-pyusb
-git clone https://github.com/imShara/l5p-kbl
-cd l5p-kbl
-python l5p-kbl.py --help
+git clone https://github.com/InstinctEx/lenovo-ideapad-legion-keyboard-led
+cd lenovo-ideapad-legion-keyboard-led
+python lenovolight.py --help
 ```
 
 ### Unprivileged usage
 
-Add udev rule if you want to swith light as unprivileged user
+Add udev rule if you want to switch light as unprivileged user
 ```
 # /etc/udev/rules.d/10-kblight.rules
 SUBSYSTEM=="usb", ATTR{idVendor}=="048d", ATTR{idProduct}=="c963", MODE="0666"
