@@ -7,7 +7,7 @@ This util allows to drive RGB keyboard light on Lenovo Ideapad or Legion 5 Pro 2
 ## Requirements
 
 * pyusb
-* changing VENDOR and PRODUCT with yours ( google "find vendor id lsusb"
+* changing VENDOR and PRODUCT with yours ( google "find vendor id lsusb" )
 
 ## Install
 
