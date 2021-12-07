@@ -1,8 +1,8 @@
 ![Lenovo Ideapad / Gaming 3 2021 Linux RGB Keyboard Light Controller](https://i.imgur.com/FhBMS9W.jpg)
 
-# Lenovo Ideapad Legion 5 Pro 2021 Linux RGB Keyboard Light Controller
+# Lenovo Ideapad Gaming 3 2021 Linux RGB Keyboard Light Controller
 
-This util allows to drive RGB keyboard light on Lenovo Ideapad or Legion 5 Pro 2021 Laptop
+This util allows to drive RGB keyboard light on Lenovo Ideapad Gaming 3 or Legion 5 Pro 2021 Laptop
 
 ## Requirements
 
